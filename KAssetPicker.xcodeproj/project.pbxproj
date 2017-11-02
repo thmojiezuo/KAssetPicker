@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62158F8AA582DF69CD2F5394 /* libPods-KAssetPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A6EB819DE87393FE3E70A8 /* libPods-KAssetPicker.a */; };
+		FC0788121FA421BB0064239F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788111FA421BB0064239F /* AppDelegate.m */; };
+		FC0788151FA421BB0064239F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788141FA421BB0064239F /* ViewController.m */; };
+		FC0788181FA421BB0064239F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0788161FA421BB0064239F /* Main.storyboard */; };
+		FC07881A1FA421BB0064239F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0788191FA421BB0064239F /* Assets.xcassets */; };
+		FC07881D1FA421BB0064239F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC07881B1FA421BB0064239F /* LaunchScreen.storyboard */; };
+		FC0788201FA421BB0064239F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07881F1FA421BB0064239F /* main.m */; };
+		FC07882A1FA421BB0064239F /* KAssetPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788291FA421BB0064239F /* KAssetPickerTests.m */; };
+		FC0788351FA421BB0064239F /* KAssetPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788341FA421BB0064239F /* KAssetPickerUITests.m */; };
+		FC0788561FA4249E0064239F /* DynamicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788461FA4247B0064239F /* DynamicScrollView.m */; };
+		FC0788571FA4249E0064239F /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788491FA4247B0064239F /* SDBrowserImageView.m */; };
+		FC0788581FA4249E0064239F /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07884B1FA4247B0064239F /* SDPhotoBrowser.m */; };
+		FC0788591FA4249E0064239F /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07884E1FA4247B0064239F /* SDWaitingView.m */; };
+		FC07885A1FA4249E0064239F /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788511FA4247B0064239F /* VPImageCropperViewController.m */; };
+		FC07885B1FA4249E0064239F /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788551FA4247B0064239F /* ZYQAssetPickerController.m */; };
+		FC07885C1FA424A70064239F /* deletbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0788441FA4247B0064239F /* deletbutton.png */; };
+		FC07885D1FA424AC0064239F /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC0788531FA4247B0064239F /* ZYQAssetPicker.Bundle */; };
+		FC0788611FA4286D0064239F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0788601FA428620064239F /* UIImage+FixOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0788261FA421BB0064239F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0788051FA421BB0064239F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC07880C1FA421BB0064239F;
+			remoteInfo = KAssetPicker;
+		};
+		FC0788311FA421BB0064239F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0788051FA421BB0064239F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC07880C1FA421BB0064239F;
+			remoteInfo = KAssetPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38A6EB819DE87393FE3E70A8 /* libPods-KAssetPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KAssetPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FCF77DA01FD7C7F924F110 /* Pods-KAssetPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAssetPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KAssetPicker/Pods-KAssetPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		F0637BBF635717FD6DF9EFD7 /* Pods-KAssetPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAssetPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-KAssetPicker/Pods-KAssetPicker.release.xcconfig"; sourceTree = "<group>"; };
+		FC07880D1FA421BB0064239F /* KAssetPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAssetPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0788101FA421BB0064239F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0788111FA421BB0064239F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0788131FA421BB0064239F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC0788141FA421BB0064239F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC0788171FA421BB0064239F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC0788191FA421BB0064239F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC07881C1FA421BB0064239F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC07881E1FA421BB0064239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC07881F1FA421BB0064239F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0788251FA421BB0064239F /* KAssetPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAssetPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0788291FA421BB0064239F /* KAssetPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAssetPickerTests.m; sourceTree = "<group>"; };
+		FC07882B1FA421BB0064239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0788301FA421BB0064239F /* KAssetPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAssetPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0788341FA421BB0064239F /* KAssetPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAssetPickerUITests.m; sourceTree = "<group>"; };
+		FC0788361FA421BB0064239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0788441FA4247B0064239F /* deletbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletbutton.png; sourceTree = "<group>"; };
+		FC0788451FA4247B0064239F /* DynamicScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicScrollView.h; sourceTree = "<group>"; };
+		FC0788461FA4247B0064239F /* DynamicScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicScrollView.m; sourceTree = "<group>"; };
+		FC0788481FA4247B0064239F /* SDBrowserImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		FC0788491FA4247B0064239F /* SDBrowserImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		FC07884A1FA4247B0064239F /* SDPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		FC07884B1FA4247B0064239F /* SDPhotoBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		FC07884C1FA4247B0064239F /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		FC07884D1FA4247B0064239F /* SDWaitingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		FC07884E1FA4247B0064239F /* SDWaitingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		FC0788501FA4247B0064239F /* VPImageCropperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		FC0788511FA4247B0064239F /* VPImageCropperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		FC0788531FA4247B0064239F /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		FC0788541FA4247B0064239F /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		FC0788551FA4247B0064239F /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		FC07885F1FA428620064239F /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		FC0788601FA428620064239F /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC07880A1FA421BB0064239F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62158F8AA582DF69CD2F5394 /* libPods-KAssetPicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0788221FA421BB0064239F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC07882D1FA421BB0064239F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A073A8AB7FB218304C8F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCF77DA01FD7C7F924F110 /* Pods-KAssetPicker.debug.xcconfig */,
+				F0637BBF635717FD6DF9EFD7 /* Pods-KAssetPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		806259E2EEAA86990EF98B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38A6EB819DE87393FE3E70A8 /* libPods-KAssetPicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0788041FA421BB0064239F = {
+			isa = PBXGroup;
+			children = (
+				FC0788421FA4247B0064239F /* photo */,
+				FC07880F1FA421BB0064239F /* KAssetPicker */,
+				FC0788281FA421BB0064239F /* KAssetPickerTests */,
+				FC0788331FA421BB0064239F /* KAssetPickerUITests */,
+				FC07880E1FA421BB0064239F /* Products */,
+				30A073A8AB7FB218304C8F6A /* Pods */,
+				806259E2EEAA86990EF98B9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC07880E1FA421BB0064239F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC07880D1FA421BB0064239F /* KAssetPicker.app */,
+				FC0788251FA421BB0064239F /* KAssetPickerTests.xctest */,
+				FC0788301FA421BB0064239F /* KAssetPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC07880F1FA421BB0064239F /* KAssetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788101FA421BB0064239F /* AppDelegate.h */,
+				FC0788111FA421BB0064239F /* AppDelegate.m */,
+				FC0788131FA421BB0064239F /* ViewController.h */,
+				FC0788141FA421BB0064239F /* ViewController.m */,
+				FC0788161FA421BB0064239F /* Main.storyboard */,
+				FC0788191FA421BB0064239F /* Assets.xcassets */,
+				FC07881B1FA421BB0064239F /* LaunchScreen.storyboard */,
+				FC07881E1FA421BB0064239F /* Info.plist */,
+				FC07881F1FA421BB0064239F /* main.m */,
+			);
+			path = KAssetPicker;
+			sourceTree = "<group>";
+		};
+		FC0788281FA421BB0064239F /* KAssetPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788291FA421BB0064239F /* KAssetPickerTests.m */,
+				FC07882B1FA421BB0064239F /* Info.plist */,
+			);
+			path = KAssetPickerTests;
+			sourceTree = "<group>";
+		};
+		FC0788331FA421BB0064239F /* KAssetPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788341FA421BB0064239F /* KAssetPickerUITests.m */,
+				FC0788361FA421BB0064239F /* Info.plist */,
+			);
+			path = KAssetPickerUITests;
+			sourceTree = "<group>";
+		};
+		FC0788421FA4247B0064239F /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				FC07885E1FA428620064239F /* UIImage+FixOrientation */,
+				FC0788431FA4247B0064239F /* dynamicScrollView */,
+				FC0788471FA4247B0064239F /* SDPhotoBrowser */,
+				FC07884F1FA4247B0064239F /* VPImageCropViewController */,
+				FC0788521FA4247B0064239F /* ZYQAssetPickerController */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+		FC0788431FA4247B0064239F /* dynamicScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788441FA4247B0064239F /* deletbutton.png */,
+				FC0788451FA4247B0064239F /* DynamicScrollView.h */,
+				FC0788461FA4247B0064239F /* DynamicScrollView.m */,
+			);
+			path = dynamicScrollView;
+			sourceTree = "<group>";
+		};
+		FC0788471FA4247B0064239F /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788481FA4247B0064239F /* SDBrowserImageView.h */,
+				FC0788491FA4247B0064239F /* SDBrowserImageView.m */,
+				FC07884A1FA4247B0064239F /* SDPhotoBrowser.h */,
+				FC07884B1FA4247B0064239F /* SDPhotoBrowser.m */,
+				FC07884C1FA4247B0064239F /* SDPhotoBrowserConfig.h */,
+				FC07884D1FA4247B0064239F /* SDWaitingView.h */,
+				FC07884E1FA4247B0064239F /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		FC07884F1FA4247B0064239F /* VPImageCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788501FA4247B0064239F /* VPImageCropperViewController.h */,
+				FC0788511FA4247B0064239F /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropViewController;
+			sourceTree = "<group>";
+		};
+		FC0788521FA4247B0064239F /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				FC0788531FA4247B0064239F /* ZYQAssetPicker.Bundle */,
+				FC0788541FA4247B0064239F /* ZYQAssetPickerController.h */,
+				FC0788551FA4247B0064239F /* ZYQAssetPickerController.m */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+		FC07885E1FA428620064239F /* UIImage+FixOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				FC07885F1FA428620064239F /* UIImage+FixOrientation.h */,
+				FC0788601FA428620064239F /* UIImage+FixOrientation.m */,
+			);
+			path = "UIImage+FixOrientation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC07880C1FA421BB0064239F /* KAssetPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0788391FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPicker" */;
+			buildPhases = (
+				7590BD3CF173303D5CE8E2DF /* [CP] Check Pods Manifest.lock */,
+				FC0788091FA421BB0064239F /* Sources */,
+				FC07880A1FA421BB0064239F /* Frameworks */,
+				FC07880B1FA421BB0064239F /* Resources */,
+				AB0D313322667913E75AB632 /* [CP] Embed Pods Frameworks */,
+				07C0C04FB0550B1042B74758 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAssetPicker;
+			productName = KAssetPicker;
+			productReference = FC07880D1FA421BB0064239F /* KAssetPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0788241FA421BB0064239F /* KAssetPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC07883C1FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPickerTests" */;
+			buildPhases = (
+				FC0788211FA421BB0064239F /* Sources */,
+				FC0788221FA421BB0064239F /* Frameworks */,
+				FC0788231FA421BB0064239F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0788271FA421BB0064239F /* PBXTargetDependency */,
+			);
+			name = KAssetPickerTests;
+			productName = KAssetPickerTests;
+			productReference = FC0788251FA421BB0064239F /* KAssetPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC07882F1FA421BB0064239F /* KAssetPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC07883F1FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPickerUITests" */;
+			buildPhases = (
+				FC07882C1FA421BB0064239F /* Sources */,
+				FC07882D1FA421BB0064239F /* Frameworks */,
+				FC07882E1FA421BB0064239F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0788321FA421BB0064239F /* PBXTargetDependency */,
+			);
+			name = KAssetPickerUITests;
+			productName = KAssetPickerUITests;
+			productReference = FC0788301FA421BB0064239F /* KAssetPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0788051FA421BB0064239F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC07880C1FA421BB0064239F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC0788241FA421BB0064239F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC07880C1FA421BB0064239F;
+					};
+					FC07882F1FA421BB0064239F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC07880C1FA421BB0064239F;
+					};
+				};
+			};
+			buildConfigurationList = FC0788081FA421BB0064239F /* Build configuration list for PBXProject "KAssetPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0788041FA421BB0064239F;
+			productRefGroup = FC07880E1FA421BB0064239F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC07880C1FA421BB0064239F /* KAssetPicker */,
+				FC0788241FA421BB0064239F /* KAssetPickerTests */,
+				FC07882F1FA421BB0064239F /* KAssetPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC07880B1FA421BB0064239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC07885D1FA424AC0064239F /* ZYQAssetPicker.Bundle in Resources */,
+				FC07885C1FA424A70064239F /* deletbutton.png in Resources */,
+				FC07881D1FA421BB0064239F /* LaunchScreen.storyboard in Resources */,
+				FC07881A1FA421BB0064239F /* Assets.xcassets in Resources */,
+				FC0788181FA421BB0064239F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0788231FA421BB0064239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC07882E1FA421BB0064239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C0C04FB0550B1042B74758 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KAssetPicker/Pods-KAssetPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7590BD3CF173303D5CE8E2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAssetPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0D313322667913E75AB632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KAssetPicker/Pods-KAssetPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0788091FA421BB0064239F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0788611FA4286D0064239F /* UIImage+FixOrientation.m in Sources */,
+				FC0788561FA4249E0064239F /* DynamicScrollView.m in Sources */,
+				FC0788571FA4249E0064239F /* SDBrowserImageView.m in Sources */,
+				FC0788581FA4249E0064239F /* SDPhotoBrowser.m in Sources */,
+				FC0788591FA4249E0064239F /* SDWaitingView.m in Sources */,
+				FC07885A1FA4249E0064239F /* VPImageCropperViewController.m in Sources */,
+				FC07885B1FA4249E0064239F /* ZYQAssetPickerController.m in Sources */,
+				FC0788151FA421BB0064239F /* ViewController.m in Sources */,
+				FC0788201FA421BB0064239F /* main.m in Sources */,
+				FC0788121FA421BB0064239F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0788211FA421BB0064239F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC07882A1FA421BB0064239F /* KAssetPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC07882C1FA421BB0064239F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0788351FA421BB0064239F /* KAssetPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0788271FA421BB0064239F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC07880C1FA421BB0064239F /* KAssetPicker */;
+			targetProxy = FC0788261FA421BB0064239F /* PBXContainerItemProxy */;
+		};
+		FC0788321FA421BB0064239F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC07880C1FA421BB0064239F /* KAssetPicker */;
+			targetProxy = FC0788311FA421BB0064239F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0788161FA421BB0064239F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0788171FA421BB0064239F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC07881B1FA421BB0064239F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC07881C1FA421BB0064239F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0788371FA421BB0064239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC0788381FA421BB0064239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC07883A1FA421BB0064239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FCF77DA01FD7C7F924F110 /* Pods-KAssetPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KAssetPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC07883B1FA421BB0064239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0637BBF635717FD6DF9EFD7 /* Pods-KAssetPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KAssetPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC07883D1FA421BB0064239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KAssetPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAssetPicker.app/KAssetPicker";
+			};
+			name = Debug;
+		};
+		FC07883E1FA421BB0064239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KAssetPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAssetPicker.app/KAssetPicker";
+			};
+			name = Release;
+		};
+		FC0788401FA421BB0064239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KAssetPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAssetPicker;
+			};
+			name = Debug;
+		};
+		FC0788411FA421BB0064239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KAssetPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KAssetPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAssetPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0788081FA421BB0064239F /* Build configuration list for PBXProject "KAssetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0788371FA421BB0064239F /* Debug */,
+				FC0788381FA421BB0064239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0788391FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC07883A1FA421BB0064239F /* Debug */,
+				FC07883B1FA421BB0064239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC07883C1FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC07883D1FA421BB0064239F /* Debug */,
+				FC07883E1FA421BB0064239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC07883F1FA421BB0064239F /* Build configuration list for PBXNativeTarget "KAssetPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0788401FA421BB0064239F /* Debug */,
+				FC0788411FA421BB0064239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0788051FA421BB0064239F /* Project object */;
+}

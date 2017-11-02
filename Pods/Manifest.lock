@@ -1,0 +1,14 @@
+PODS:
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: ae15eef3780f389959ea36fe2b2544fc97e6b7e5
+
+COCOAPODS: 1.3.1
